@@ -7,10 +7,10 @@ public class Demo {
         
         //here we wish to compute area of a Circle whose radius is 10;
         
-        shapes.Circle c=new shapes.Circle();
+        shapes.arc.Circle c=new shapes.arc.Circle();
         c.area(10);
         
-        shapes.Square s=new shapes.Square();
+        shapes.lines.Square s=new shapes.lines.Square();
         s.area(5);
     }
 }
